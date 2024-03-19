@@ -1,0 +1,290 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.header {
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.btn {
+  border: none;
+  height: 40px;
+  width: 80px;
+  margin-right: 20px;
+  color: #bf9e80;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btns {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  height: 120px;
+}
+
+.logo-icon {
+  width: 110px;
+  height: 90px;
+  margin-right: 350px;
+}
+
+.search-logo {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  background-color: #fcbd9c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.search-box {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: center;
+  height: 120px;
+}
+
+.search-area {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #faf1e8;
+  width: 240px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+.search-text {
+  border: none;
+  outline: none;
+  background-color: #faf1e8;
+  color: #cdaa7e;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+}
+
+.section-1 {
+  flex: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.e-commerce {
+  color: #eb8eaf;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.website {
+  color: #eb8eaf;
+  font-size: 90px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.local {
+  margin-top: 20px;
+  color: #c8bd90;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-2 {
+  flex: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.logo-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fdbe9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #c4a47d;
+  background-color: #feffff;
+  padding-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.up,
+.down {
+  width: 20px;
+  height: 20px;
+}
+
+.choose {
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 110px;
+  width: 250px;
+  background-color: #faf1e8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-text {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #c4a47d;
+}
+
+.ecommerce-btns {
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.basket {
+  margin-left: 8px;
+  margin-right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f9f2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.buy-now {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 85px;
+  background-color: #cc9c5e;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 50px;
+  align-items: center;
+}
+.buy-text {
+  color: #f9f2e9;
+  font-size: 25px;
+}
+
+.pictures {
+  margin-left: 250px;
+  width: 150px;
+  height: 150px;
+}
+
+.continue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 5px;
+}
+
+.cont-text {
+  color: #ccaf8c;
+}
+.line {
+  margin-left: 5px;
+  width: 40px;
+  height: 1px;
+  background-color: #ccaf8c;
+}
+.right {
+  width: 10px;
+  height: 10px;
+  fill: #ccaf8c;
+}
+
+.chair {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: 80px;
+  left: 710px;
+}
+
+.other-item-2,
+.other-item-3 {
+  position: absolute;
+  width: 250px;
+  height: 85px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-item-3 {
+  bottom: 440px;
+  left: 1000px;
+}
+
+.other-item-2 {
+  bottom: 140px;
+  left: 650px;
+}
+
+.other-text {
+  color: #cabe88;
+  font-size: 25px;
+}
